@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_SERVER_MIGRATION",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": ".\\SQLEXPRESS",
+			"database": "sqlmigration",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "harry",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlOTlkOTQwMi1hOWQ1LTQwY2EtODBiOC01MzczMjk2M2VkMTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

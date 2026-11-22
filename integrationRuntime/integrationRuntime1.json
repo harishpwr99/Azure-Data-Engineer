@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/bbdee616-68da-48d5-a79f-41295fcfc404/resourcegroups/rgdevcrmproject/providers/Microsoft.DataFactory/factories/DFNEWDEVENVCRM1/integrationruntimes/ubantusqlserverintegration",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

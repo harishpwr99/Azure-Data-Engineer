@@ -1,0 +1,16 @@
+{
+	"name": "DFANYONEHOME",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4c5f7546-01e7-4d3e-ab13-c7ee7679fd7e",
+		"tenantId": "e11fe7da-dcfe-4297-acb7-29325b3a31bf"
+	}
+}

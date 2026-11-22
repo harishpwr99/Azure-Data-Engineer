@@ -1,0 +1,41 @@
+{
+	"name": "SD_SQL_SERVER",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_SERVER_MIGRATION",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "EmployeeKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "EmployeeID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "EmployeeName",
+				"type": "varchar"
+			},
+			{
+				"name": "Role",
+				"type": "varchar"
+			},
+			{
+				"name": "StoreID",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimEmployee"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
