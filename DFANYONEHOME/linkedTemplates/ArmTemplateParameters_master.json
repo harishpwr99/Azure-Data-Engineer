@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DFANYONEHOME"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_SERVER_MIGRATION_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevanyonehome.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevanyonehome.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevanyonehome.dfs.core.windows.net/"
+		},
+		"LS_SQL_SERVER_MIGRATION_properties_typeProperties_server": {
+			"value": ".\\SQLEXPRESS"
+		},
+		"LS_SQL_SERVER_MIGRATION_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQL_SERVER_MIGRATION_properties_typeProperties_userName": {
+			"value": "harry"
+		},
+		"integrationRuntime1_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/bbdee616-68da-48d5-a79f-41295fcfc404/resourcegroups/rgdevcrmproject/providers/Microsoft.DataFactory/factories/DFNEWDEVENVCRM1/integrationruntimes/ubantusqlserverintegration"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
